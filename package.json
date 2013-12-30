@@ -1,0 +1,22 @@
+﻿{
+  "main": "index.html",
+  "name": "jigsaw",
+  "description": "jigsaw game",
+  "version": "0.1.0",
+  "author": "crhanying@gmail.com",
+  "window": {
+    "title": "爸爸去哪儿系列拼图游戏",
+    "toolbar": false,
+    "frame": true,
+    "width": 1280,
+    "height": 630,
+    "position": "mouse",
+    "min_width": 600,
+    "min_height":550,
+    "max_width": 1376,
+    "max_height": 805
+  },
+  "webkit": {
+    "plugin": true
+  }
+}

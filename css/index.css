@@ -1,0 +1,21 @@
+﻿body
+{     
+background: url("../picture/bg10.jpg")  no-repeat scroll top center transparent;
+}
+#game_name{
+	 float:left;
+	 margin-top: 3%;
+      margin-left: 38%;
+  }
+ #audio_player{
+	 float:left;
+      margin-left: 60%;
+  }
+ #menu{
+ 	text-align:center;
+			font-size:24px;
+			font-family:SimHei;
+ 		 float:left;
+ 		 margin-top:7%;
+      margin-left: 50%;
+  }

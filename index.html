@@ -1,0 +1,35 @@
+﻿<html>
+	<head>
+		 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+  <title> 爸爸去哪儿系列拼图游戏 </title>
+  <link href="css/index.css" rel="stylesheet" type="text/css"> </link>
+	</head>
+	
+	<body>
+		<div id="game_name">
+			<img src="picture/ziti1.gif"  alt="爸爸去哪儿" />
+			<img src="picture/ziti2.gif"  alt="系列拼图游戏" />
+    </div>
+  	</br>
+     <div id="audio_player">
+  	<audio controls="controls" autoplay="autoplay">
+  	<source src="audio/song_short.ogg" type="audio/mpeg" />
+		Your browser does not support the audio element.
+		</audio>
+	 </div>
+	 
+	 	 
+ 	  <div id="menu">
+ 	  	
+	  <form id="rank" action="game.html" method="get">
+		<input type="radio" name="rank" value="2" />    简单   
+		<input type="radio" name="rank" value="3" />   一般   
+		<input type="radio" name="rank" value="4" />   困难
+	</br></br>
+	  <input type="image" name="start" src="picture/start.gif" width="128" height="68" onClick="document.rank.submit()">
+		</form>
+		
+	</div>
+
+			</body>
+			</html>

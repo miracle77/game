@@ -1,0 +1,17 @@
+  #audio_player{
+  	 float:right;
+  }
+  #game{
+ 
+      float:left;
+  }
+  #original{
+
+    float:left;
+      margin-left:180px;
+  }
+  #return{
+      float:left;
+    margin-left:43%;
+  }
+  
